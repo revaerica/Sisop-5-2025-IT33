@@ -4,8 +4,9 @@
 
 Nama | NRP
 --- | ---
-Amoes Noland | 5027231028
-Rafi' Afnaan Fathurrahman | 5027231040
+Revalina Erica Permatasari | 5027241007
+Kaisar Hanif Pratama | 5027241029
+Ni'mah Fauziyyah Atok | 5027241103
 
 ## Daftar Isi
 
