@@ -5,7 +5,8 @@
 
 void shell();
 void parseCommand(char *buf, char *cmd, char arg[2][64]);
-
-// Tambahkan fungsi bila perlu
+void handleCommand(char *cmd, char *buf, char arg[2][64]);
+void showPrompt(); 
+void setColor(int color);
 
 #endif // __SHELL_H__
