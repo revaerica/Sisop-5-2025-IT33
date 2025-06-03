@@ -1,7 +1,7 @@
 #include "shell.h"
 #include "kernel.h"
 
-int textColor = 0x07;
+int textColor = 0x0F;
 
 int main() {
     clearScreen(textColor);  
