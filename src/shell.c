@@ -49,7 +49,7 @@ void handleCommand(char *cmd, char *buf, char arg[2][64]) {
     } else if (strcmp(cmd, "grandcompany")) {
         if (strcmp(arg[0], "maelstrom")) { setColor(0x0C); strcpy(companyTag, "@Storm"); }
         else if (strcmp(arg[0], "twinadder")) { setColor(0x0E); strcpy(companyTag, "@Serpent"); }
-        else if (strcmp(arg[0], "immortalflames")) { setColor(0x09); strcpy(companyTag, "@Flame"); }
+        else if (strcmp(arg[0], "immortalflames")) { setColor(0x08); strcpy(companyTag, "@Flame"); }
         else printString("Unknown company\r\n");
     } else if (strcmp(cmd, "clear")) {
         setColor(0x07); companyTag[0] = '\0';
