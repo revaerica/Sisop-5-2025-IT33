@@ -8,6 +8,7 @@ int currentColor = 0x07;
 
 void setColor(int color) {
     currentColor = color;
+    setTextColor(color);
     clearScreen(color);
 }
 
