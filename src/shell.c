@@ -4,7 +4,7 @@
 
 char username[64] = "user";
 char companyTag[32] = "";
-int currentColor = 0x07;
+int currentColor = 0x0F;
 
 void setColor(int color) {
     currentColor = color;
