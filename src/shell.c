@@ -25,15 +25,15 @@ void parseCommand(char *buf, char *cmd, char arg[2][64]) {
     clear((byte *)arg[0], 64);
     clear((byte *)arg[1], 64);
     while (buf[i] == ' ') i++;
-    while (buf[i] != ' ' && buf[i] != '\0') cmd[j++] = buf[i++];
+    while (buf[i] != ' ' && buf[i] != '\0' && buf[i] != '\r') cmd[j++] = buf[i++];
     cmd[j] = '\0';
-    if (buf[i] == ' ') i++;
+    while (buf[i] == ' ') i++;
     j = 0;
-    while (buf[i] != ' ' && buf[i] != '\0') arg[0][j++] = buf[i++];
+    while (buf[i] != ' ' && buf[i] != '\0' && buf[i] != '\r') arg[0][j++] = buf[i++];
     arg[0][j] = '\0';
-    if (buf[i] == ' ') i++;
+    while (buf[i] == ' ') i++;
     j = 0;
-    while (buf[i] != '\0') arg[1][j++] = buf[i++];
+    while (buf[i] != '\0' && buf[i] != '\r') arg[1][j++] = buf[i++];
     arg[1][j] = '\0';
 }
 
