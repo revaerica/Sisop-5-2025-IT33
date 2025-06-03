@@ -9,9 +9,13 @@ int main() {
     return 0;
 }
 
+void setTextColor(int color) {
+    textColor = color;
+}
+
 void printString(char *str) {
-    while (*str != '\0') {
-        interrupt(0x10, 0x0E00 + *str, 0, 0, 0);        
+     while (*str != '\0') {
+        interrupt(0x10, 0x0E00 + *str, textColor << 8, 0, 0);        
         str++;
     }
 }
