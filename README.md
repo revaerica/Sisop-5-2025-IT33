@@ -57,6 +57,7 @@ Pada suatu hari, anda merasa sangat lelah dari segala macam praktikum yang sudah
    user>
    ```
 
+
 4. Tiga negara besar dari Eorzean Alliance butuh bantuan anda untuk ikut serta dalam "Grand Company" mereka sehingga anda bisa mengubah warna terminal ajaib anda sesuai warna utama dari company mereka:
    * `grandcompany maelstrom` = clear terminal, ubah semua teks berikutnya jadi merah
    * `grandcompany twinadder` = clear terminal, ubah semua teks berikutnya jadi kuning
@@ -249,8 +250,12 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    ```
    Penjelasan:
    Bagian ini terdapat di fungsi handleCommand dalam `shell.c`. Jika input pengguna (cmd) tidak cocok dengan perintah yang dikenali (misalnya user, grandcompany, add, dsb), maka program akan mencetak ulang isi dari buf (input pengguna), seperti efek "Echo".
+
+      **Dokumentasi**
+   <img width="364" alt="image" src="https://github.com/user-attachments/assets/5d44a08e-34bb-4b7b-8d81-fa4dfa2ae116" />
    
-2. gurt: yo
+   
+3. gurt: yo
 
    Ilustrasi:
    ```
@@ -270,6 +275,9 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    Penjelasan:
    - `"yo"` → output `"gurt"`
    - `"gurt"` → output `"yo"`
+  
+   **Dokumentasi**
+   <img width="365" alt="image" src="https://github.com/user-attachments/assets/e747ce9a-b427-4728-998c-1e3af88bc094" />
 
 3. Seorang main character memerlukan sebuah nama yang semua orang bisa ingat dengan baik. Buatlah sebuah command yang memungkinkan pengguna untuk mengubah nama user pada shell yang digunakan:
    * `user <username>` = mengubah username menjadi `<username>`
@@ -293,6 +301,9 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    ```
    Penjelasan:
    Fungsi ini menangani perubahan username sesuai input. Bila hanya mengetik user, maka nama di-reset ke "user". Bila user <nama>, maka username diubah menjadi <nama>.
+
+   **Dokumentasi**
+   <img width="366" alt="image" src="https://github.com/user-attachments/assets/2d80820f-7cb8-409c-98db-0437260c062d" />
 
 4. Tiga negara besar dari Eorzean Alliance butuh bantuan anda untuk ikut serta dalam "Grand Company" mereka sehingga anda bisa mengubah warna terminal ajaib anda sesuai warna utama dari company mereka:
    * `grandcompany maelstrom` = clear terminal, ubah semua teks berikutnya jadi merah
@@ -343,7 +354,19 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    Nama pengguna juga diberi tambahan seperti `@Storm`, `@Serpent`, atau `@Flame`.
    Command `clear` mengatur ulang warna ke default (putih) dan menghapus tag grand company dari prompt.
 
-5. Sebagai pahlawan terkenal di antara ketiga negara besar Eorzean Alliance, salah satu supplier senjata terbesar di seluruh Eorzea bernama "Rowena's House of Splendors" tiba-tiba memerlukan bantuan anda untuk membuat sebuah sistem kalkulator sederhana melalui command karena pemimpin mereka tertidur setelah mengurus semua orang di dalam Eorzea:
+  **Dokumentasi**
+  <img width="365" alt="image" src="https://github.com/user-attachments/assets/c5758297-c4d2-4e51-89d2-d8b8d0f25a98" />
+
+  <img width="367" alt="image" src="https://github.com/user-attachments/assets/859806a1-7d18-44cd-826f-45e5798c10c6" />
+
+  <img width="367" alt="image" src="https://github.com/user-attachments/assets/15438680-777a-4513-989b-d70e8c3b84d0" />
+
+  <img width="368" alt="image" src="https://github.com/user-attachments/assets/2f47bb44-c6ab-4d45-9eec-68db6c3dcbeb" />
+
+  <img width="367" alt="image" src="https://github.com/user-attachments/assets/bb0a79f1-dfd5-4e9c-a680-b734d00e7772" />
+
+
+6. Sebagai pahlawan terkenal di antara ketiga negara besar Eorzean Alliance, salah satu supplier senjata terbesar di seluruh Eorzea bernama "Rowena's House of Splendors" tiba-tiba memerlukan bantuan anda untuk membuat sebuah sistem kalkulator sederhana melalui command karena pemimpin mereka tertidur setelah mengurus semua orang di dalam Eorzea:
    * `add <x> <y>` = x + y
    * `sub <x> <y>` = x - y
    * `mul <x> <y>` = x * y
@@ -376,7 +399,11 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    - Hasil dikonversi kembali ke string dengan `itoa`.
    - `div` memiliki pengecekan pembagi nol.
 
-6. me: yogurt
+  **Dokumentasi**
+  <img width="366" alt="image" src="https://github.com/user-attachments/assets/db84f3b0-82b8-469a-bf29-926d4171e529" />
+
+
+7. me: yogurt
    
    gurt:
    * `yo`
@@ -408,7 +435,11 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    Penjelasan:
    - `"yogurt"` → secara acak (menggunakan BIOS tick count dan fungsi `mod`) memilih satu dari tiga respons berbeda: `"yo"`, `"ts unami gng </3"`, atau `"sygau"`.
 
-7. Perusahaan mesin "Garlond Ironworks" tiba-tiba lelah mengurus permintaan senjata perang untuk orang ke-148649813234 yang berusaha menghadapi final boss yang sama, sehingga mereka perlu bantuan kamu untuk melengkapi `Makefile` yang diberikan dengan command-command yang sesuai untuk compile seluruh operating system ini. <br>
+  **Dokumentasi**
+  <img width="367" alt="image" src="https://github.com/user-attachments/assets/158b6249-67d6-4e33-b1ba-4779c7fe29d4" />
+
+
+8. Perusahaan mesin "Garlond Ironworks" tiba-tiba lelah mengurus permintaan senjata perang untuk orang ke-148649813234 yang berusaha menghadapi final boss yang sama, sehingga mereka perlu bantuan kamu untuk melengkapi `Makefile` yang diberikan dengan command-command yang sesuai untuk compile seluruh operating system ini. <br>
 
    Jawaban :
    ```
