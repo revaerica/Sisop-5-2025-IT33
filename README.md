@@ -251,7 +251,7 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    Penjelasan:
    Bagian ini terdapat di fungsi handleCommand dalam `shell.c`. Jika input pengguna (cmd) tidak cocok dengan perintah yang dikenali (misalnya user, grandcompany, add, dsb), maka program akan mencetak ulang isi dari buf (input pengguna), seperti efek "Echo".
 
-      **Dokumentasi**
+   **Dokumentasi**
    
    <img width="364" alt="image" src="https://github.com/user-attachments/assets/5d44a08e-34bb-4b7b-8d81-fa4dfa2ae116" />
    
@@ -276,7 +276,7 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    Penjelasan:
    - `"yo"` → output `"gurt"`
    - `"gurt"` → output `"yo"`
-  
+   
    **Dokumentasi**
    
    <img width="365" alt="image" src="https://github.com/user-attachments/assets/e747ce9a-b427-4728-998c-1e3af88bc094" />
@@ -356,8 +356,8 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    - Biru (0x0B) untuk `immortalflames`
    Nama pengguna juga diberi tambahan seperti `@Storm`, `@Serpent`, atau `@Flame`.
    Command `clear` mengatur ulang warna ke default (putih) dan menghapus tag grand company dari prompt.
-
-  **Dokumentasi**
+   
+   **Dokumentasi**
   
   <img width="365" alt="image" src="https://github.com/user-attachments/assets/c5758297-c4d2-4e51-89d2-d8b8d0f25a98" />
   
@@ -406,10 +406,10 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    - Operasi matematika dilakukan (`a + b`, `a - b`, dst).
    - Hasil dikonversi kembali ke string dengan `itoa`.
    - `div` memiliki pengecekan pembagi nol.
+   
+   **Dokumentasi**
 
-  **Dokumentasi**
-  
-  <img width="366" alt="image" src="https://github.com/user-attachments/assets/db84f3b0-82b8-469a-bf29-926d4171e529" />
+   <img width="366" alt="image" src="https://github.com/user-attachments/assets/db84f3b0-82b8-469a-bf29-926d4171e529" />
 
 
 6. me: yogurt
@@ -443,10 +443,10 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    ```
    Penjelasan:
    - `"yogurt"` → secara acak (menggunakan BIOS tick count dan fungsi `mod`) memilih satu dari tiga respons berbeda: `"yo"`, `"ts unami gng </3"`, atau `"sygau"`.
+   
+   **Dokumentasi**
 
-  **Dokumentasi**
-  
-  <img width="367" alt="image" src="https://github.com/user-attachments/assets/158b6249-67d6-4e33-b1ba-4779c7fe29d4" />
+   <img width="367" alt="image" src="https://github.com/user-attachments/assets/158b6249-67d6-4e33-b1ba-4779c7fe29d4" />
 
 
 7. Perusahaan mesin "Garlond Ironworks" tiba-tiba lelah mengurus permintaan senjata perang untuk orang ke-148649813234 yang berusaha menghadapi final boss yang sama, sehingga mereka perlu bantuan kamu untuk melengkapi `Makefile` yang diberikan dengan command-command yang sesuai untuk compile seluruh operating system ini. <br>
