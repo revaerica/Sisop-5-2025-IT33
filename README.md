@@ -249,7 +249,7 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
    ```
    Penjelasan:
    Bagian ini terdapat di fungsi handleCommand dalam `shell.c`. Jika input pengguna (cmd) tidak cocok dengan perintah yang dikenali (misalnya user, grandcompany, add, dsb), maka program akan mencetak ulang isi dari buf (input pengguna), seperti efek "Echo".
-
+   
 2. gurt: yo
 
    Ilustrasi:
@@ -331,7 +331,7 @@ anda untuk berbicara pada Operating System ini (mungkin sebenarnya bukan ini kek
     .
     .
     else if (strcmp(cmd, "clear")) {
-    setColor(0x07);
+    setColor(0x0F);
     companyTag[0] = '\0';
     }
    ```
